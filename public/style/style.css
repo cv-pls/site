@@ -56,6 +56,10 @@ header nav > ul > li {
     border-top: 4px solid transparent;
 }
 
+header nav > ul > li.active {
+    border-top: 4px solid #747474;
+}
+
 header nav > ul > li:hover {
     border-top: 4px solid #747474;
 }

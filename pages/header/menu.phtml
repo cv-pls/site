@@ -1,15 +1,16 @@
+        <?php $path = '/' . trim($_SERVER['REQUEST_URI'], '/'); ?>
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/changelog">Changelog</a></li>
-            <li><a href="/source">Source</a>
+            <li<?php if ($path == '/') echo ' class="active"'; ?>><a href="/">Home</a></li>
+            <li<?php if ($path == '/changelog') echo ' class="active"'; ?>><a href="/changelog">Changelog</a></li>
+            <li<?php if ($path == '/source') echo ' class="active"'; ?>><a href="/source">Source</a>
               <ul>
                 <li><a href="https://github.com/cv-pls/cv-pls" target="_blank">Base</a></li>
                 <li><a href="https://github.com/cv-pls/chrome-cv-pls" target="_blank">Chrome</a></li>
                 <li><a href="https://github.com/cv-pls/ff-cv-pls target="_blank">Firefox</a></li>
               </ul>
             </li>
-            <li><a href="/downloads">Downloads</a>
+            <li<?php if ($path == '/downloads') echo ' class="active"'; ?>><a href="/downloads">Downloads</a>
               <ul>
                 <li><a href="https://github.com/downloads/cv-pls/chrome-cv-pls/cv-pls_0.19.0.crx">Chrome v0.19.0 (stable)</a></li>
                 <li><a href="/chrome/cv-pls_0.20.0.crx">Chrome v0.20.0 (beta)</a></li>
