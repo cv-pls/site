@@ -39,6 +39,11 @@ switch ($path[0]) {
         $content = get_page_content('privacy');
         break;
 
+    case 'about-us':
+        $title = 'About us';
+        $content = get_page_content('about-us');
+        break;
+
     default:
         $title = 'Not found';
         $content = get_page_content('not-found');
