@@ -24,7 +24,7 @@
 
     case 'chrome':
       header('Content-Type: text/xml');
-      header('Content-Length: '.filesize($ffUpdateManifest));
+      header('Content-Length: '.filesize($cmUpdateManifest));
       readfile($cmUpdateManifest);
       break;
 
