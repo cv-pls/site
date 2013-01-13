@@ -34,6 +34,11 @@ switch ($path[0]) {
         $content = get_page_content('downloads');
         break;
 
+    case 'privacy':
+        $title = 'Privacy statement';
+        $content = get_page_content('privacy');
+        break;
+
     default:
         $title = 'Not found';
         $content = get_page_content('not-found');
