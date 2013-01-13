@@ -29,6 +29,11 @@ switch ($path[0]) {
         $content = get_page_content('source');
         break;
 
+    case 'downloads':
+        $title = 'Downloads';
+        $content = get_page_content('downloads');
+        break;
+
     default:
         $title = 'Not found';
         $content = get_page_content('not-found');
