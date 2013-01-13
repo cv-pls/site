@@ -35,6 +35,10 @@ header nav {
     float: right;
 }
 
+header nav ul {
+    list-style: none;
+}
+
 header nav > ul {
     margin: 0;
     padding: 0;
@@ -113,6 +117,10 @@ header nav > ul > li:hover ul li:hover {
 #content {
     max-width: 960px;
     margin: 0 auto;
+}
+
+#content a {
+    color: black;
 }
 
 footer {
