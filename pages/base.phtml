@@ -1,0 +1,30 @@
+<?php
+$extraTitle = '';
+if (isset($title)) {
+    $extraTitle = $title . ' - ';
+}
+?>
+
+<html>
+  <head>
+    <title><?php echo $extraTitle; ?>cv-pls</title>
+    <link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link href="/style/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="content-container">
+        <h1><a href="/">cv-pls</a></h1>
+        <?php require __DIR__ . '/header/menu.phtml'; ?>
+      </div>
+    </header>
+    <div id="content">
+      <?php echo $content; ?>
+    </div>
+    <footer>
+      <?php require __DIR__ . '/footer/info-and-links.phtml'; ?>
+      <?php require __DIR__ . '/footer/terms-and-conditions.phtml'; ?>
+    </footer>
+  </body>
+</html>
