@@ -20,10 +20,17 @@ switch ($path[0]) {
         break;
 
     case 'changelog':
+        $title = 'Changelog';
         $content = get_page_content('changelog');
         break;
 
+    case 'source':
+        $title = 'Source';
+        $content = get_page_content('source');
+        break;
+
     default:
+        $title = 'Not found';
         $content = get_page_content('not-found');
         break;
 }
