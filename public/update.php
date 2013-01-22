@@ -5,10 +5,7 @@
   $urlBase = 'https://cv-pls.pieterhordijk.com/';
 
   $ffUpdateManifest = 'mozilla/update.rdf';
-  $ffUpdateBinary = 'mozilla/cv-pls_0.20.1.xpi';
-
   $cmUpdateManifest = 'chrome/update.xml';
-  $cmUpdateBinary = 'chrome/cv-pls_0.20.1.crx';
 
   if (empty($_GET['browser'])) {
     header('HTTP/1.1 400 Bad Request');
@@ -17,16 +14,24 @@
 
   switch ($_GET['browser']) {
     case 'mozilla':
-      header('Content-Type: application/rdf+xml');
-      header('Content-Length: '.filesize($ffUpdateManifest));
-      readfile($ffUpdateManifest);
-      break;
+      if (file_exists($ffUpdateManifest)) {
+        header('Content-Type: application/rdf+xml');
+        header('Content-Length: '.filesize($ffUpdateManifest));
+        readfile($ffUpdateManifest);
+      } else {
+        header('HTTP/1.1 404 Not Found');
+      }
+      exit;
 
     case 'chrome':
-      header('Content-Type: text/xml');
-      header('Content-Length: '.filesize($cmUpdateManifest));
-      readfile($cmUpdateManifest);
-      break;
+      if (file_exists($cmUpdateManifest)) {
+        header('Content-Type: text/xml');
+        header('Content-Length: '.filesize($cmUpdateManifest));
+        readfile($cmUpdateManifest);
+      } else {
+        header('HTTP/1.1 404 Not Found');
+      }
+      exit;
 
     default:
       header('HTTP/1.1 400 Bad Request');

@@ -11,7 +11,7 @@
                 <em:maxVersion>99.*</em:maxVersion>
                 <em:minVersion>4.0</em:minVersion>
                 <em:updateHash>sha512:fdd5eca5e58c192d7085ad491809b04357e47ad9a363993cfc8f3fcba0a11f341e69fb41b232e47d88978a2dc5a12ba2888ac6e6ff9699521750e4656dfb1685</em:updateHash>
-                <em:updateInfoURL>https://cv-pls.pieterhordijk.com/mozilla/updateinfo.php?version=0.20.1</em:updateInfoURL>
+                <em:updateInfoURL>https://cv-pls.pieterhordijk.com/updateinfo.php?version=0.20.1</em:updateInfoURL>
                 <em:updateLink>https://cv-pls.pieterhordijk.com/mozilla/cv-pls_0.20.1.xpi</em:updateLink>
               </RDF:Description>
             </em:targetApplication>
@@ -20,6 +20,6 @@
         </RDF:li>
       </RDF:Seq>
     </em:updates>
-    <em:signature>MIGRMAsGCSqGSIb3DQEBDQOBgQAHip2SvOpHrXWbF5DdStOs1wjlLboBToNDWAdXmmm+RueFVWL17/QGAD/HJF9nUr56Lj7VgyZYk1TpRCs7YtSG/3W7ve/FAbMYPVZwnJeMYs3CWEFJogeqGhH3O8oJwCpYFATDmR5ado/2qw4IMBV/h0gwBuitP2PaoQQlpfu4QQ==</em:signature>
+    <em:signature>MIGRMAsGCSqGSIb3DQEBDQOBgQAVhY+3panXeMEwEMMWWpef1FCqzBkCrZAlKcdnhLcK4YT7i5zFzmKZCBcyTPFA6neYtAEcGnEUdxTyqbAotcDDn/ipGI3ubV2o5b/tdxBF79UmX0kh+xnRd29S3sFOzsETNSuu0wt+BlPjboKSv1+czc5V76foODkhKUxfIig+PQ==</em:signature>
   </RDF:Description>
 </RDF:RDF>
