@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <RDF:Description about="urn:mozilla:extension:cv-pls@stackoverflow.com">
+    <em:updates>
+      <RDF:Seq>
+        <RDF:li>
+          <RDF:Description about="urn:mozilla:extension:cv-pls@stackoverflow.com:0.20.1">
+            <em:targetApplication>
+              <RDF:Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:maxVersion>99.*</em:maxVersion>
+                <em:minVersion>10.0</em:minVersion>
+                <em:updateHash>sha512:62328e3a7c3f668f4d42ca1c992160681bf7beb2bd29bd3a4d93ad41b63c94110990764d84c4e746966a1bf8db49c9895f4e5538fd32669ee13cd8e946864019</em:updateHash>
+                <em:updateInfoURL>https://cv-pls.pieterhordijk.com/updateinfo.php?version=0.20.1</em:updateInfoURL>
+                <em:updateLink>https://cv-pls.pieterhordijk.com/cv-pls_0.20.1.xpi</em:updateLink>
+              </RDF:Description>
+            </em:targetApplication>
+            <em:version>0.20.1</em:version>
+          </RDF:Description>
+        </RDF:li>
+      </RDF:Seq>
+    </em:updates>
+    <em:signature>MIGRMAsGCSqGSIb3DQEBDQOBgQCAZcANFAmdo+oMOvTVqY63V5Yw/aRuXiryQJwZhjNKcGApuseWAHuL/O5jEm1sQxlQ7ZlWq1grDMOk7eDAINB4nwYV4lCytTexLzdBgLo45lmlimWY0msyQiXZIUTS7hsCj4VTiAKdXkATVh9sLDJiJFhupqNvFAYTp9fWt1DgNQ==</em:signature>
+  </RDF:Description>
+</RDF:RDF>
