@@ -9,14 +9,34 @@
     <th>Development</th>
   </tr>
   <tr>
-    <td><a href="https://github.com/cv-pls/chrome-cv-pls" target="_blank">Google Chrome</a></td>
-    <td><a href="/chrome/cv-pls_0.20.0.crx">0.20.0</a></td>
-    <td><a href="/chrome/cv-pls_0.20.1.crx">0.20.1</a></td>
+    <td>
+      <a href="https://github.com/cv-pls/chrome-cv-pls" target="_blank">Google Chrome</a>
+    </td>
+    <td>
+      <a href="/chrome/cv-pls_<?= STABLE_VERSION ?>.crx"><?= STABLE_VERSION ?></a>
+    </td>
+    <td>
+<?php if (defined('DEVELOPMENT_VERSION')) { ?>
+      <a href="/chrome/cv-pls_<?= DEVELOPMENT_VERSION ?>.crx"><?= DEVELOPMENT_VERSION ?></a>
+<?php } else { ?>
+      <i>N/A</i>
+<?php } ?>
+    </td>
   </tr>
   <tr>
-    <td><a href="https://github.com/cv-pls/ff-cv-pls" target="_blank">Mozilla Firefox</a></td>
-    <td><a href="/mozilla/cv-pls_0.20.0.xpi">0.20.0</a></td>
-    <td><a href="/mozilla/cv-pls_0.20.1.xpi">0.20.1</a></td>
+    <td>
+      <a href="https://github.com/cv-pls/ff-cv-pls" target="_blank">Mozilla Firefox</a>
+    </td>
+    <td>
+      <a href="/mozilla/cv-pls_<?= STABLE_VERSION ?>.xpi"><?= STABLE_VERSION ?></a>
+    </td>
+    <td>
+<?php if (defined('DEVELOPMENT_VERSION')) { ?>
+      <a href="/mozilla/cv-pls_<?= DEVELOPMENT_VERSION ?>.xpi"><?= DEVELOPMENT_VERSION ?></a>
+<?php } else { ?>
+      <i>N/A</i>
+<?php } ?>
+    </td>
   </tr>
 </table>
 

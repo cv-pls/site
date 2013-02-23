@@ -1,11 +1,13 @@
 <h1>Downloads</h1>
 <h2>Stable</h2>
 <ul>
-  <li><a href="/chrome/cv-pls_0.20.0.crx">Chrome 0.20.0</a></li>
-  <li><a href="/mozilla/cv-pls_0.20.0.xpi">Firefox 0.20.0</a></li>
+  <li><a href="/chrome/cv-pls_<?= STABLE_VERSION ?>.crx">Chrome <?= STABLE_VERSION ?></a></li>
+  <li><a href="/mozilla/cv-pls_<?= STABLE_VERSION ?>.xpi">Firefox <?= STABLE_VERSION ?></a></li>
 </ul>
+<?php if (defined('DEVELOPMENT_VERSION')) { ?>
 <h2>Beta</h2>
 <ul>
-  <li><a href="/chrome/cv-pls_0.20.1.crx">Chrome 0.20.1</a></li>
-  <li><a href="/mozilla/cv-pls_0.20.1.xpi">Firefox 0.20.1</a></li>
+  <li><a href="/chrome/cv-pls_<?= DEVELOPMENT_VERSION ?>.crx">Chrome <?= DEVELOPMENT_VERSION ?></a></li>
+  <li><a href="/mozilla/cv-pls_<?= DEVELOPMENT_VERSION ?>.xpi">Firefox <?= DEVELOPMENT_VERSION ?></a></li>
 </ul>
+<?php } ?>
