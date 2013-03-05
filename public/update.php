@@ -2,38 +2,37 @@
 
   // DISCLAIMER: This code is supposed to quick, not good :-P
 
-  $urlBase = 'https://cv-pls.pieterhordijk.com/';
-
-  $ffUpdateManifest = 'mozilla/update.rdf';
-  $cmUpdateManifest = 'chrome/update.xml';
-
   if (empty($_GET['browser'])) {
     header('HTTP/1.1 400 Bad Request');
     exit('Browser ID empty');
   }
 
-  switch ($_GET['browser']) {
+  $browser = strtolower($_GET['browser']);
+  $branch = !empty($_GET['branch']) ? strtolower($_GET['branch']) : 'master';
+
+  switch ($browser) {
     case 'mozilla':
-      if (file_exists($ffUpdateManifest)) {
-        header('Content-Type: application/rdf+xml');
-        header('Content-Length: '.filesize($ffUpdateManifest));
-        readfile($ffUpdateManifest);
-      } else {
-        header('HTTP/1.1 404 Not Found');
-      }
-      exit;
+      $cType = 'application/rdf+xml';
+      $manifestFile = $branch === 'dev' ? 'dev/update.rdf' : 'update.rdf';
+      break;
 
     case 'chrome':
-      if (file_exists($cmUpdateManifest)) {
-        header('Content-Type: text/xml');
-        header('Content-Length: '.filesize($cmUpdateManifest));
-        readfile($cmUpdateManifest);
-      } else {
-        header('HTTP/1.1 404 Not Found');
-      }
-      exit;
+      $cType = 'text/xml';
+      $manifestFile = $branch === 'dev' ? 'dev/update.xml' : 'update.xml';
+      break;
 
     default:
       header('HTTP/1.1 400 Bad Request');
       exit('Invalid browser ID');
   }
+
+  $path = __DIR__ . '/' . $browser . '/' . $manifestFile;
+
+  if (!is_file($path)) {
+    header('HTTP/1.1 404 Not Found');
+    exit('File not found');
+  }
+
+  header('Content-Type: ' . $cType);
+  header('Content-Length: ' . filesize($path));
+  readfile($path);
