@@ -13,12 +13,12 @@
   switch ($browser) {
     case 'mozilla':
       $cType = 'application/rdf+xml';
-      $manifestFile = $branch === 'dev' ? 'dev/update.rdf' : 'update.rdf';
+      $manifestFile = $branch === 'alpha' ? 'dev/update.rdf' : 'update.rdf';
       break;
 
     case 'chrome':
       $cType = 'text/xml';
-      $manifestFile = $branch === 'dev' ? 'dev/update.xml' : 'update.xml';
+      $manifestFile = $branch === 'alpha' ? 'dev/update.xml' : 'update.xml';
       break;
 
     default:
