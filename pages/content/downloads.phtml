@@ -1,13 +1,27 @@
 <h1>Downloads</h1>
 <h2>Stable</h2>
+<p>Current release. Recommended for most users.</p>
 <ul>
   <li><a href="/chrome/cv-pls_<?= STABLE_VERSION ?>.crx">Chrome <?= STABLE_VERSION ?></a></li>
   <li><a href="/mozilla/cv-pls_<?= STABLE_VERSION ?>.xpi">Firefox <?= STABLE_VERSION ?></a></li>
 </ul>
 <?php if (defined('DEVELOPMENT_VERSION')) { ?>
 <h2>Beta</h2>
+<p>Beta version of the upcoming release. Usually fairly stable, uses the main update channel.</p>
 <ul>
   <li><a href="/chrome/cv-pls_<?= DEVELOPMENT_VERSION ?>.crx">Chrome <?= DEVELOPMENT_VERSION ?></a></li>
   <li><a href="/mozilla/cv-pls_<?= DEVELOPMENT_VERSION ?>.xpi">Firefox <?= DEVELOPMENT_VERSION ?></a></li>
+</ul>
+<?php } ?>
+<?php if (defined('CHROME_ALPHA_VERSION') || defined('MOZILLA_ALPHA_VERSION')) { ?>
+<h2>Alpha</h2>
+<p>These releases are updated every 2 hours, automatically built from the alpha branch in the Github repositories. This is the way to get access to new features as soon as they are available, but these builds will be unstable. These releases use a dedicated update channel.</p>
+<ul>
+<?php   if (defined('CHROME_ALPHA_VERSION')) { ?>
+  <li><a href="/chrome/dev/cv-pls_<?= CHROME_ALPHA_VERSION ?>.crx">Chrome <?= CHROME_ALPHA_VERSION ?></a></li>
+<?php   } ?>
+<?php   if (defined('MOZILLA_ALPHA_VERSION')) { ?>
+  <li><a href="/mozilla/dev/cv-pls_<?= MOZILLA_ALPHA_VERSION ?>.xpi">Firefox <?= MOZILLA_ALPHA_VERSION ?></a></li>
+<?php   } ?>
 </ul>
 <?php } ?>
