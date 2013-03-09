@@ -3,6 +3,9 @@
 date_default_timezone_set('Europe/Amsterdam');
 
 require __DIR__.'/config.downloads.php';
+if (is_file(__DIR__.'/config.alpha.php')) {
+    require __DIR__.'/config.alpha.php';
+}
 
 $path = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 
