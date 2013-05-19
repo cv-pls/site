@@ -74,4 +74,14 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 2. Then *export* the file as a PNG (.png)
 3. Upload the avatar in your SE profile page
 
-<br><hr>*For additions, updates, corrections, etc  please ping `@cryptic ツ` in the [**PHP chat**](http://chat.stackoverflow.com/rooms/11/php). Last updated : 2013-04-28*
+<br><hr>cspray's explanation of the cv-ring to be summarized and included into the above. I have obtained his permissions to do so.
+
+What is 'cv-ring', 'cv-pls' and 'delv-pls'
+
+In the Stack Overflow PHP chat you may notice the regulars using tags like cv-pls, cv-ring and delv-pls. These tags are used only in the chat room to communicate with other users that a question or answer may need more votes to be closed or deleted. The PHP tag has a lot of inferior quality and duplicative information on Stack Overflow. We feel that inferior quality questions bring down the site and make it harder to find good information, particularly about PHP. By closing and merging these questions as appropriate you'll find the information you need quicker.
+
+    cv-ring is just a 'funny name' we give to the group of regulars who use the tags
+    cv-pls is an in-chat tag that communicates "Hey, this question may be of inferior quality. Check it out and, if you feel appropriate, cast a close vote."
+    delv-pls is an in-chat tag that communicates "Hey, this question has already been closed but now needs to be deleted."
+
+There's been a question on meta.stackoverflow.com that asks whether the community should vote-to-close in this way if you feel the need to provide feedback. If you have a problem with the process or notice abuse please post something on meta or talk to us in chat. This process is meant to help the community but can easily start hurting the community and that is not our intent. I hope this clears up a little more about various in-chat tags used by the PHP chat room.
