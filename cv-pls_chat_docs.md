@@ -1,7 +1,7 @@
 Contents <sup><a title='Documentation' href='#cv-pls-documentation' name='cv-pls-documentation'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-- **About** *(pending)*
+- **About**
  - [Meaning](#cv-pls-meaning)
  - [Reason](#cv-pls-reason)
 - **Usage**
@@ -20,7 +20,9 @@ Contents <sup><a title='Documentation' href='#cv-pls-documentation' name='cv-pls
 <br>Reason <sup><a title='Why Is It Done?' href='#cv-pls-reason' name='cv-pls-reason'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-*Content pending...*
+The Stack Exchange sites can accumulate a lot of inferior quality and duplicative information. We feel that inferior quality questions bring down the sites and make it harder to find good information. By closing and merging these questions as appropriate you'll find the information you need quicker. This is a community based approach in quality assurance to help ensure that these sites can provide the best information to those that seek it.
+
+There's been a question on [meta.stackoverflow.com](http://meta.stackoverflow.com/) that [asks whether the community should vote-to-close in this way](http://meta.stackoverflow.com/questions/120275/is-asking-others-for-a-close-vote-appropriate) if you feel the need to provide feedback. If you have a problem with the process or notice abuse please post something on meta or talk to us in [chat](http://chat.stackoverflow.com/rooms/11/php). This process is meant to help the community, but can easily start hurting the community and that is not our intent.
 
 <br>Chat Tags <sup><a title='Chat Tags' href='#chat-tags' name='chat-tags'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
@@ -46,7 +48,7 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 | Acronym | Close Type Description |
 | :---: | :--- |
 | **DUPE**<br>*(duplicate)* | This question has been asked before and already has an answer. |
-| **OT**<br>*(off topic)* | This question does not appear to be about programming, within the scope defined in the help center for the linked StackExchange site. |
+| **OT**<br>*(off topic)* | This question does not appear to be about programming, within the scope defined in the help center for the linked Stack Exchange site. |
 | **UWYA**<br>*(unclear&nbsp;what&nbsp;you're&nbsp;asking)* | Please clarify your specific problem or add additional details to highlight exactly what you need. As it's currently written, it’s hard to tell exactly what you're asking. |
 | **TB**<br>*(too&nbsp;broad)* |There are either too many possible answers, or good answers would be too long for this format. Please add details to narrow the answer set or to isolate an issue that can be answered in a few paragraphs. |
 | **POB**<br>*(primarily&nbsp;opinion-based)* | Many good questions generate some degree of opinion based on expert experience, but answers to this question will tend to be almost entirely based on opinions, rather than facts, references, or specific expertise. |
