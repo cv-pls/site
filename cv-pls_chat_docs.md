@@ -41,17 +41,17 @@ Tags can be put anywhere in a chat message except in formatted code to create a 
 <br>Close-Vote Acronyms <sup><a title='Close-Vote Acronyms' href='#close-vote-acronyms' name='close-vote-acronyms'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-Acronyms are case insensitive. They may be be used in chat tags in the markdown format as `[tag:acronym]` to create a tag like ![cv-pls](http://i.stack.imgur.com/PfCit.png) for example, or just by themselves as `acronym` . They are used to specify what close type applies to the  linked post.
+Acronyms are case insensitive. They may be be used in chat tags in the markdown format as `[tag:acronym]` to create a tag like ![cv-pls](http://i.stack.imgur.com/5UZkA.png) for example, or just by themselves as `acronym` . They are used to specify what close type applies to the  linked post.
 
 | Acronym | Close Type Description |
 | :---: | :--- |
 | **DUPE**<br>*(duplicate)* | This question has been asked before and already has an answer. |
-| **OT**<br>*(off topic)* | Questions for the  linked StackExchange site are expected to relate to topics defined in the site's FAQ. Consider editing the question or leaving comments for improvement if you believe the question can be reworded to fit within the scope. |
-| **NC**<br>*(not&nbsp;constructive)* | As it currently stands, this question is not a good fit for our Q&A format. We expect answers to be supported by facts, references, or specific expertise, but this question will likely solicit debate, arguments, polling, or extended discussion. If you feel that this question can be improved and possibly reopened, see the FAQ for the linked StackExchange site for guidance. |
-| **NARQ**<br>*(not&nbsp;a&nbsp;real&nbsp;question)* | It's difficult to tell what is being asked here. This question is ambiguous, vague, incomplete, overly broad, or rhetorical and cannot be reasonably answered in its current form. For help clarifying this question so that it can be reopened, see the FAQ for the linked StackExchange site. |
-| **TL**<br>*(too localized)* | This question is unlikely to help any future visitors; it is only relevant to a small geographic area, a specific moment in time, or an extraordinarily narrow situation that is not generally applicable to the worldwide audience of the internet. For help making this question more broadly applicable, see the FAQ for the linked StackExchange site. |
+| **OT**<br>*(off topic)* | This question does not appear to be about programming, within the scope defined in the help center for the linked StackExchange site. |
+| **UWYA**<br>*(unclear&nbsp;what&nbsp;you're&nbsp;asking)* | Please clarify your specific problem or add additional details to highlight exactly what you need. As it's currently written, it’s hard to tell exactly what you're asking. |
+| **TB**<br>*(too&nbsp;broad)* |There are either too many possible answers, or good answers would be too long for this format. Please add details to narrow the answer set or to isolate an issue that can be answered in a few paragraphs. |
+| **POB**<br>*(primarily&nbsp;opinion-based)* | Many good questions generate some degree of opinion based on expert experience, but answers to this question will tend to be almost entirely based on opinions, rather than facts, references, or specific expertise. |
 
-> **These chat tags DO NOT get indexed in the cv-pls [backlog](http://cvbacklog.gordon-oheim.biz/ ). If using these tags be sure to use the tag `[tag:cv-pls]` in conjunction. For example : `[tag:cv-pls][tag:narq]` to create a tag like ![cv-pls](http://i.stack.imgur.com/QNeEk.png)**
+> **These chat tags DO NOT get indexed in the cv-pls [backlog](http://cvbacklog.gordon-oheim.biz/ ). If using these tags be sure to use the tag `[tag:cv-pls]` in conjunction. For example : `[tag:cv-pls][tag:pob]` to create a tag like ![cv-pls](http://i.stack.imgur.com/FDgWC.png)**
 
 <br>Browser Extensions <sup><a title='Browser Extensions' href='#browser-extensions' name='browser-extensions'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
@@ -67,21 +67,11 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 <br>Avatar Bling <sup><a title='Avatar Bling' href='#avatar-bling' name='avatar-bling'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-*Unofficially* cv-ring members are modifying their avatars to include a broomstick icon ![](http://i.stack.imgur.com/b7V9o.png) in the lower-right corner. This is to symbolize helping cleanup StackOverflow of low quality content. The trend was started by [@PeeHaa 埽](http://stackoverflow.com/users/508666/peehaa) and is slowly becoming popular. To show your continued support of being part of the cv-ring you can bling up your avatar by  [downloading](http://www.fileswap.com/dl/fr8CYOi1ya/) the`.xcf` file. You will need  [GIMP](http://www.gimp.org/) to edit it.
+*Unofficially* cv-ring members are modifying their avatars to include a broomstick icon ![](http://i.stack.imgur.com/b7V9o.png) in the lower-right corner. This is to symbolize helping cleanup StackOverflow of low quality content. The trend was started by [@PeeHaa 埽](http://stackoverflow.com/users/508666/peehaa) and is slowly becoming popular. To show your continued support of being part of the cv-ring you can bling up your avatar by  [downloading](http://cv-pls.com/broom.xcf) the`.xcf` file. You will need  [GIMP](http://www.gimp.org/) to edit it.
 
 1. Place your avatar on the blank *avatar* layer keeping the *broom* layer on top 
  - *optionally you can make the broom smaller, but keep it in lower-right corner*
 2. Then *export* the file as a PNG (.png)
 3. Upload the avatar in your SE profile page
 
-<br><hr>cspray's explanation of the cv-ring to be summarized and included into the above. I have obtained his permissions to do so.
-
-What is 'cv-ring', 'cv-pls' and 'delv-pls'
-
-In the Stack Overflow PHP chat you may notice the regulars using tags like cv-pls, cv-ring and delv-pls. These tags are used only in the chat room to communicate with other users that a question or answer may need more votes to be closed or deleted. The PHP tag has a lot of inferior quality and duplicative information on Stack Overflow. We feel that inferior quality questions bring down the site and make it harder to find good information, particularly about PHP. By closing and merging these questions as appropriate you'll find the information you need quicker.
-
-    cv-ring is just a 'funny name' we give to the group of regulars who use the tags
-    cv-pls is an in-chat tag that communicates "Hey, this question may be of inferior quality. Check it out and, if you feel appropriate, cast a close vote."
-    delv-pls is an in-chat tag that communicates "Hey, this question has already been closed but now needs to be deleted."
-
-There's been a question on meta.stackoverflow.com that asks whether the community should vote-to-close in this way if you feel the need to provide feedback. If you have a problem with the process or notice abuse please post something on meta or talk to us in chat. This process is meant to help the community but can easily start hurting the community and that is not our intent. I hope this clears up a little more about various in-chat tags used by the PHP chat room.
+<br><hr>*For additions, updates, corrections, etc  please ping `@cryptic ツ` in the [**PHP chat**](http://chat.stackoverflow.com/rooms/11/php). Last updated : 2013-06-25*
