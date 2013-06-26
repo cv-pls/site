@@ -15,14 +15,16 @@ Contents <sup><a title='Documentation' href='#cv-pls-documentation' name='cv-pls
 <br>Meaning <sup><a title='What Does It Mean?' href='#cv-pls-meaning' name='cv-pls-meaning'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-*Content pending...*
+In the [Stack Overflow](http://www.stackoverflow.com/) [PHP chat](http://chat.stackoverflow.com/rooms/11/php) you may notice the regulars using tags like `cv-pls`, `cv-ring` and others. These tags are used only in the chat room to communicate with other users that a post may need some sort of moderation. The documentation below outlines all the possible actions and meanings of each acronym and its usage.
+
+`cv-ring` is just a 'funny name' we give to the group of regulars who use the tags, It is not a cult, there is no membership fee, secret hand-shake or conspiracy afoot. To join the `cv-ring` just actively participate in helping maintain the quality of the site's posts by following the proper usage of the close-vote chat tags.
 
 <br>Reason <sup><a title='Why Is It Done?' href='#cv-pls-reason' name='cv-pls-reason'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-The Stack Exchange sites can accumulate a lot of inferior quality and duplicative information. We feel that inferior quality questions bring down the sites and make it harder to find good information. By closing and merging these questions as appropriate you'll find the information you need quicker. This is a community based approach in quality assurance to help ensure that these sites can provide the best information to those that seek it.
+The Stack Exchange sites can accumulate a lot of inferior quality and duplicative information. We feel that inferior quality questions bring down the sites and make it harder to find good information. By closing and merging these posts as appropriate you'll find the information you need quicker. This is a community based approach in quality assurance to help ensure that these sites can provide the best information to those that seek it.
 
-There's been a question on [meta.stackoverflow.com](http://meta.stackoverflow.com/) that [asks whether the community should vote-to-close in this way](http://meta.stackoverflow.com/questions/120275/is-asking-others-for-a-close-vote-appropriate) if you feel the need to provide feedback. If you have a problem with the process or notice abuse please post something on meta or talk to us in [chat](http://chat.stackoverflow.com/rooms/11/php). This process is meant to help the community, but can easily start hurting the community and that is not our intent.
+There's been a question on [meta.stackoverflow.com](http://meta.stackoverflow.com/) that [asks whether the community should vote-to-close in this way](http://meta.stackoverflow.com/questions/120275/is-asking-others-for-a-close-vote-appropriate) if you feel the need to provide feedback. If you have a problem with the process or notice abuse please post something on meta or talk to us in [PHP chat](http://chat.stackoverflow.com/rooms/11/php). This process is meant to help the community, but can easily start hurting the community and that is not our intent.
 
 <br>Chat Tags <sup><a title='Chat Tags' href='#chat-tags' name='chat-tags'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
@@ -69,7 +71,7 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 <br>Avatar Bling <sup><a title='Avatar Bling' href='#avatar-bling' name='avatar-bling'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-*Unofficially* cv-ring members are modifying their avatars to include a broomstick icon ![](http://i.stack.imgur.com/b7V9o.png) in the lower-right corner. This is to symbolize helping cleanup StackOverflow of low quality content. The trend was started by [@PeeHaa 埽](http://stackoverflow.com/users/508666/peehaa) and is slowly becoming popular. To show your continued support of being part of the cv-ring you can bling up your avatar by  [downloading](http://cv-pls.com/broom.xcf) the`.xcf` file. You will need  [GIMP](http://www.gimp.org/) to edit it.
+*Unofficially* cv-ring members are modifying their avatars to include a broomstick icon ![](http://i.stack.imgur.com/b7V9o.png) in the lower-right corner. This is to symbolize helping cleanup StackOverflow of low quality content. The trend was started by [@PeeHaa](http://stackoverflow.com/users/508666/peehaa) and is slowly becoming popular. To show your continued support of being part of the cv-ring you can bling up your avatar by  [downloading](http://cv-pls.com/broom.xcf) the`.xcf` file. You will need  [GIMP](http://www.gimp.org/) to edit it.
 
 1. Place your avatar on the blank *avatar* layer keeping the *broom* layer on top 
  - *optionally you can make the broom smaller, but keep it in lower-right corner*
