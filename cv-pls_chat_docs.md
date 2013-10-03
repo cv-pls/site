@@ -29,7 +29,7 @@ There's been a question on [meta.stackoverflow.com](http://meta.stackoverflow.co
 <br>Chat Tags <sup><a title='Chat Tags' href='#chat-tags' name='chat-tags'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-Tags can be put anywhere in a chat message except in formatted code to create a tag like ![cv-pls](http://i.stack.imgur.com/Zhlks.png) by entering its corresponding markdown code. Multiple tag types may be used for a single post if  necessary.
+Tags can be put anywhere in a chat message except in formatted code to create a tag like ![cv-pls](http://i.stack.imgur.com/7NIIN.png) by entering its corresponding markdown code. Multiple tag types may be used for a single post if  necessary.
 
 | Common Usage(s) |  Markdown  | Meaning |
 | :---: | :---: | :--- |
@@ -78,4 +78,4 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 2. Then *export* the file as a PNG (.png)
 3. Upload the avatar in your SE profile page
 
-<br><hr>*For additions, updates, corrections, etc  please ping `@cryptic ツ` in the [**PHP chat**](http://chat.stackoverflow.com/rooms/11/php). Last updated : 2013-06-25*
+<br><hr>*For additions, updates, corrections, etc  please ping `@cryptic ツ` in the [**PHP chat**](http://chat.stackoverflow.com/rooms/11/php).*
