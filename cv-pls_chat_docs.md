@@ -40,7 +40,7 @@ Tags can be put anywhere in a chat message except in formatted code to create a 
 | rv-pls<br>review-pls | `[tag:rv-pls]`<br>`[tag:review-pls]` | post may need to be *reviewed* |
 | flag-pls | `[tag:flag-pls]` | post may need to be *flagged* |
 
-> **Links marked with  `[tag:cv-pls]` or  `[tag:delv-pls]` tags will be indexed in the cv-pls [backlog](http://cvbacklog.gordon-oheim.biz/ )**.
+> **Links marked with  `[tag:cv-pls]` tags will be indexed in the cv-pls chat  [backlog](http://cv-pls.com/backlog?chatroom)**.
 
 <br>Close-Vote Acronyms <sup><a title='Close-Vote Acronyms' href='#close-vote-acronyms' name='close-vote-acronyms'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
@@ -55,7 +55,7 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 | **TB**<br>*(too&nbsp;broad)* |There are either too many possible answers, or good answers would be too long for this format. Please add details to narrow the answer set or to isolate an issue that can be answered in a few paragraphs. |
 | **POB**<br>*(primarily&nbsp;opinion-based)* | Many good questions generate some degree of opinion based on expert experience, but answers to this question will tend to be almost entirely based on opinions, rather than facts, references, or specific expertise. |
 
-> **These chat tags DO NOT get indexed in the cv-pls [backlog](http://cvbacklog.gordon-oheim.biz/ ). If using these tags be sure to use the tag `[tag:cv-pls]` in conjunction. For example : `[tag:cv-pls][tag:pob]` to create a tag like ![cv-pls](http://i.stack.imgur.com/FDgWC.png)**
+> **These chat tags DO NOT get indexed in the cv-pls chat [backlog](http://cv-pls.com/backlog?chatroom). If using these tags be sure to use the tag `[tag:cv-pls]` in conjunction. For example : `[tag:cv-pls][tag:pob]` to create a tag like ![cv-pls](http://i.stack.imgur.com/FDgWC.png)**
 
 <br>Browser Extensions <sup><a title='Browser Extensions' href='#browser-extensions' name='browser-extensions'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
@@ -65,7 +65,7 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 - Turn `[cv-pls]` and `[delv-pls]` requests into oneboxes
 - Convenience buttons for creating `[cv-pls]` and `[delv-pls]` requests
 - Various options for being notified of new requests, including `@mention` beep and avatar notifications
-- Integration with the [CVBacklog](https://github.com/gooh/CVBacklog)
+- Integration with the [CVBacklog](https://github.com/PHP-Chat/CVBacklog)
 - Request progress indication in oneboxes and/or by striking through completed requests
 
 <br>Avatar Bling <sup><a title='Avatar Bling' href='#avatar-bling' name='avatar-bling'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
