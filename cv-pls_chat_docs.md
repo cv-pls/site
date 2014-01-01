@@ -8,6 +8,7 @@ Contents <sup><a title='Documentation' href='#cv-pls-documentation' name='cv-pls
  - [Chat Tags](#chat-tags)
  - [Close-Vote Acronyms](#close-vote-acronyms)
 - **Tools**
+ - [Backlog](#cv-pls-backlog)
  - [Browser Extensions](#browser-extensions)
 - **Miscellaneous**
  - [Avatar Bling](#avatar-bling)
@@ -56,6 +57,11 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 | **POB**<br>*(primarily&nbsp;opinion-based)* | Many good questions generate some degree of opinion based on expert experience, but answers to this question will tend to be almost entirely based on opinions, rather than facts, references, or specific expertise. |
 
 > **These chat tags DO NOT get indexed in the cv-pls chat [backlog](http://cv-pls.com/backlog?chatroom). If using these tags be sure to use the tag `[tag:cv-pls]` in conjunction. For example : `[tag:cv-pls][tag:pob]` to create a tag like ![cv-pls](http://i.stack.imgur.com/FDgWC.png)**
+
+<br>Backlog <sup><a title='cv-pls Backlog' href='#cv-pls-backlog' name='cv-pls-backlog'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
+---
+
+*pending*
 
 <br>Browser Extensions <sup><a title='Browser Extensions' href='#browser-extensions' name='browser-extensions'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
