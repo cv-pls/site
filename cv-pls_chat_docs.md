@@ -32,6 +32,8 @@ There's been a question on [meta.stackoverflow.com](http://meta.stackoverflow.co
 
 Tags can be put anywhere in a chat message except in formatted code to create a tag like ![cv-pls](http://i.stack.imgur.com/7NIIN.png) by entering its corresponding markdown code. Multiple tag types may be used for a single post if  necessary.
 
+> **Important: there MUST be a space between the chat tag and the question URL. Omitting it will prevent the URL from being converted into a link.**
+
 | Common Usage(s) |  Markdown  | Meaning |
 | :---: | :---: | :--- |
 | cv-pls | `[tag:cv-pls]` | post may need to be *closed* |
@@ -41,7 +43,7 @@ Tags can be put anywhere in a chat message except in formatted code to create a 
 | rv-pls<br>review-pls | `[tag:rv-pls]`<br>`[tag:review-pls]` | post may need to be *reviewed* |
 | flag-pls | `[tag:flag-pls]` | post may need to be *flagged* |
 
-> **Links marked with  `[tag:cv-pls]` tags will be indexed in the cv-pls chat  [backlog](http://cv-pls.com/backlog?chatroom)**.
+> **Links marked with  `[tag:cv-pls]` tags will be indexed in the cv-pls chat  [backlog](http://cv-pls.com/backlog?chatroom).**
 
 <br>Close-Vote Acronyms <sup><a title='Close-Vote Acronyms' href='#close-vote-acronyms' name='close-vote-acronyms'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
