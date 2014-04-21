@@ -79,7 +79,11 @@ Acronyms are case insensitive. They may be be used in chat tags in the markdown 
 <br>Avatar Bling <sup><a title='Avatar Bling' href='#avatar-bling' name='avatar-bling'><img src='http://i.stack.imgur.com/ezLZa.png'></a></sup>
 ---
 
-*Unofficially* cv-ring members are modifying their avatars to include a broomstick icon ![](http://i.stack.imgur.com/b7V9o.png) in the lower-right corner. This is to symbolize helping cleanup StackOverflow of low quality content. The trend was started by [@PeeHaa](http://stackoverflow.com/users/508666/peehaa) and is slowly becoming popular. To show your continued support of being part of the cv-ring you can bling up your avatar by  [downloading](http://cv-pls.com/assets/download/broom.xcf) the`.xcf` file. You will need  [GIMP](http://www.gimp.org/) to edit it.
+*Unofficially* cv-ring members are modifying their avatars to include a broomstick icon ![](http://i.stack.imgur.com/b7V9o.png) in the lower-right corner. This is to symbolize helping cleanup StackOverflow of low quality content. The trend was started by [@PeeHaa](http://stackoverflow.com/users/508666/peehaa) and is slowly becoming popular. To show your continued support of being part of the cv-ring you can bling up your avatar by:
+
+- Appending your avatar URL to `http://broom.stackoverflow.so/?` (e.g. `http://broom.stackoverflow.so/?http://www.gravatar.com/avatar/d4f3af728d5ff76fc417f47279b3bc3b?s=256`), new avatar with broom will be generated. Save it locally and upload the avatar in your SE profile page.
+
+- [Downloading](http://cv-pls.com/assets/download/broom.xcf) the`.xcf` file. You will need  [GIMP](http://www.gimp.org/) to edit it.
 
 1. Place your avatar on the blank *avatar* layer keeping the *broom* layer on top 
  - *optionally you can make the broom smaller, but keep it in lower-right corner*
